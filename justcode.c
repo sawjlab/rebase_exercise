@@ -9,6 +9,9 @@ int main(){
   int factor;
   int j;
 
+  printf("This is a program to compute prime nubmers using the\n");
+  printf("Sieve of Eratosthenes\n");
+
   primes = malloc(sizeof(int)*MAXPRIME/2);
 
   for(i=3;i<MAXPRIME;i += 2) {
