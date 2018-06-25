@@ -10,6 +10,7 @@ int main(){
   int j;
   int i;
 
+  /* Sieve of Eratosthenes */
   primes = malloc(sizeof(int)*MAXPRIME/2);
 
   for(i=3;i<MAXPRIME;i += 2) {
