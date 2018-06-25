@@ -30,5 +30,11 @@ int main(){
       }
     }
   }
+  /* Print out the results */
+  for(i=3;i<MAXPRIME;i+=2) {
+    int index = (i-3)/2;
+    if(primes[index]) printf("%d ",i);
+  }
+  printf("\n");
 }
 	
