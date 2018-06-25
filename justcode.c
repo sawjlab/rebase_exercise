@@ -24,7 +24,7 @@ int main(){
   for(factor=3;factor<=maxfactor;factor += 2) {
     int index = (factor-3)/2;
     if(primes[index]) {		/* Only need to seive of prime */
-      for(j = factor;j*factor<MAXPRIME; j += factor) {
+      for(j = factor + 2*factor;j<MAXPRIME; j += 2*factor) {
 	int ind = (j-3)/2;
 	primes[ind] = 0;
       }
