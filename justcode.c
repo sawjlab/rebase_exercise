@@ -8,6 +8,7 @@ int main(){
   int maxfactor;
   int factor;
   int j;
+  int i;
 
   primes = malloc(sizeof(int)*MAXPRIME/2);
 
