@@ -8,7 +8,7 @@ int main(){
   fn_last = 0;
   fn = 1;
   printf("%d ",fn);
-  while(fn < 500) {
+  while(fn < 2000) {
     int fn_new = fn_last + fn;
     fn_last = fn;
     fn = fn_new;

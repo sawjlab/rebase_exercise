@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 #define MAXPRIME 1000
 
@@ -18,7 +19,7 @@ int main(){
     primes[index] = 1;
   }
 
-  maxfactor = sqrt(double(MAXPRIME));
+  maxfactor = sqrt((double) MAXPRIME);
 
   for(factor=3;factor<=maxfactor;factor += 2) {
     int index = (factor-3)/2;
